@@ -1,0 +1,25 @@
+Account:
+Name: Mitchell_Culligan
+Province: on
+Sin: 123456789
+--------------------------------------------------Income--------------------------------------------------
+
+Income               Amount    Taxable Amount
+-----------------  --------  ----------------
+Employment Income       900               900
+House                 13500              6750
+RRSP Withdrawl         5000              4000
+
+--------------------------------------------------Deductions--------------------------------------------------
+
+Income                 Amount
+-------------------  --------
+Interest from loans      2000
+Student Tuition          5000
+
+Taxable Income before deductions: $11,650.00
+Total deductions: $7,000.00Federal Marginal Rate 20%
+Provincial Marginal Rate 9%
+Federal Taxes: $-1.5e+05
+Provincial Taxes: $-6e+04
+Total Taxes: $-2.1e+05

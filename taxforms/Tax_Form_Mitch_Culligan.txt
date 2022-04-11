@@ -1,0 +1,27 @@
+Account:
+Name: Mitch_Culligan
+Province: on
+Sin: 123456789
+----------Income----------
+
+Income               Amount    Taxable Amount
+-----------------  --------  ----------------
+Employment Income     90000             90000
+House                 64000             32000
+Car                   54900             27450
+RRSP Withdrawl        15000             12000
+
+----------Deductions----------
+
+Income                 Amount
+-------------------  --------
+Interest from loans     27000
+Student Tuition         15000
+
+Taxable Income before deductions: $161,450.00
+Total deductions: $42,000.00
+Federal Marginal Rate 26%
+Provincial Marginal Rate 11%
+Federal Taxes: $17,819.32
+Provincial Taxes: $6,562.54
+Total Taxes: $24,381.86
