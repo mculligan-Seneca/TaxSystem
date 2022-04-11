@@ -7,14 +7,14 @@ import re
 
 
 def createAccount()->Account:
-    print("Create Account")
+    print("\nCreate Account\n")
     provinces=("ab","bc","mb","nb","nl","ns","ns","nt","nu","on","pe","qc","sk","yt")
     firstName=input("Enter your first Name: ")
     lastName=input("Enter your last name: ")
     select=displayMenu(dict(pd.Series(provinces)))
     prov=provinces[select]
     while re.search(r'^[0-9]{9}$',(sin:=input("Enter your sin: ").replace("-","").strip())) is None:
-        print("Invalid sin number")
+        print("Invalid sin number: Format {#########)")
     
     return Account(firstName,lastName,prov,sin)
     
@@ -36,10 +36,10 @@ def main():
         taxReturn.acquireGrossIncome()
         taxReturn.acquireDeductions()
         taxReturn.generateTaxForm()
-        print("File another Tax return")
+        print("File another Tax return?")
         select=int(displayMenu({1:"Yes",0:"No"}))
     
-    print("Thank You, Have a wonderful Day")
+    print("Thank You, Have a wonderful Day!")
 
 
     
