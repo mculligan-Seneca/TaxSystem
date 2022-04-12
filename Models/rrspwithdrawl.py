@@ -15,6 +15,7 @@ class RRSPWithdrawl(Income):
         else:
             fileName+="/rrsp_fed_rates.txt"
         self.__bracket=TaxBracket(fileName)#get rates for withdrawl
+        
 
 
     

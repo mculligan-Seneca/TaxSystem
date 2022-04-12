@@ -12,9 +12,7 @@ class Income(TaxObject):
     
  
 
-    def __add__(self,x)->float:
-        if isinstance(x,TaxObject) or isinstance(x,float):
-            return x+self.getTaxableIncome()
+    
      
 
     def getTaxableIncome(self):

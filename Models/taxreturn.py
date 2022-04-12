@@ -1,5 +1,5 @@
 from Helpers.InputValidation import *
-from Helpers.MenuHelper import *
+from Helpers.displayhelper import *
 from Models.income import Income
 from Models.capital import *
 from Models.account import Account
@@ -39,7 +39,7 @@ class TaxReturn:
         while choice.lower()!='y':
             incomeList=[]
             incomeList.append(Income(ensurePositiveFloat("Employment Income"),"Employment Income"))
-            incomeList+=generateList("Do you want to add unrelieaved capital gains?",createCapitalGains)
+            incomeList+=generateList("Do you want to add unrelieaved capital?",createCapitalGains)
             incomeList+=[] if (pension:=self.__createPensionWithdrawl())is None else [pension]
             print("Income Evaluation")
             print("-"*10)
